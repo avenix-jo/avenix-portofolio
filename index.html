@@ -832,6 +832,40 @@ footer{
     grid-template-columns:1fr;
   }
 }
+  .qr-demo-box {
+  margin-top: 24px;
+  padding: 18px;
+  text-align: center;
+  border: 1px solid rgba(0, 229, 255, 0.22);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.03);
+  max-width: 330px;
+}
+
+.qr-demo-box p {
+  margin: 0 0 14px;
+  font-weight: 800;
+}
+
+.qr-demo-image {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s ease;
+}
+
+.qr-demo-image:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+
+.qr-demo-box span {
+  display: block;
+  margin-top: 12px;
+  font-size: 13px;
+  opacity: 0.7;
+}
 </style>
 </head>
 
@@ -1046,6 +1080,20 @@ footer{
           rel="noopener">
           افتح NOVA Live Demo ↗
         </a>
+
+        <div class="qr-demo-box">
+  <p>📱 جرّب المنيو من هاتفك</p>
+
+  <a href="NOVA_BURGER_QR_UPDATED.png" target="_blank" rel="noopener">
+    <img
+      src="NOVA_BURGER_QR_UPDATED.png"
+      alt="NOVA BURGER QR Menu"
+      class="qr-demo-image"
+    >
+  </a>
+
+  <span>امسح الـQR لتجربة المنيو مباشرة</span>
+</div>
 
       </div>
 
